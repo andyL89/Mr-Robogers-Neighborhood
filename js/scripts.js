@@ -1,6 +1,9 @@
-function beepBoop(num) {
-  if (num )
-}
+let array = [0,1,2,3];
+array.forEach(function(num) {
+  if (num === "1") {
+    alert("hi");
+  }
+})
 
 //User Interface Logic:
 $(document).ready(function() {
