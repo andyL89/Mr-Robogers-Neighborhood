@@ -1,0 +1,23 @@
+.confirmation {
+  display: none;
+}
+
+.btn {
+  margin-top: 10px;
+  margin: 0;
+  position: absolute;
+  top: 27%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.roboger {
+  width: 33%;
+  margin: auto;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 30px;
+}
