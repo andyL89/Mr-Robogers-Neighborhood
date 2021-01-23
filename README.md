@@ -1,9 +1,9 @@
-## Loop, conditions, arrays practice (Pig Latin)
-#### *Epicodus Practice lesson #28 (Week 3) on 1/20/2021*
+## Mr. Roboger's Neighborhood
+#### *A Robot that turns certain numbers into beeps, boops, and a Mr. Rogers phrase*
 ***By Andrew Lawson © 2021***
 
 ## *Description:*
-This web page will 
+This web page will take a number submitted by the user, and display either an array including "beep", "boop", and or "Won't You Be My Neighbor?". The JavaScript logic incorporates arrays, loops, and other methods.
 
 ## *Tests*
 #### Test 1:
