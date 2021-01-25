@@ -39,7 +39,7 @@ Expect(beepBoop(5) to return (0,Beep!,Boop!,Won't you be my neighbor?,4,5);
 * Bootstrap
 
 ## *Known bugs:*
-The alert response covers up the submit button if a large enough number is inputted. I intend to add a button to refresh the page or make the alert toggle on and off.
+The alert response covers up the submit button if a large enough number is inputted. Simply click the alert response to hide it.
 
 ## *License and copyright:*
 

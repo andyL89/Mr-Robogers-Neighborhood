@@ -29,6 +29,11 @@ $(document).ready(function () {
     event.preventDefault();
     let user = parseInt($('#num').val());
     let response = beepBoop(user);
+    $('.alert').show();
     $('.alert').text(response);
   });
+  
+  $('.clickable').click(function () {
+    $('.alert').toggle();
+  })
 });
