@@ -8,6 +8,20 @@ let beepBoop = function (num) {
     array.push(index.toString());
   };
 
+  let answer = array.map(function (input) {
+    if (input.includes("3")) {
+      return input = Wont;
+    } else if (input.includes("2")) {
+      return input = Boop;
+    } else if (input.includes("1")) {
+      return input = Beep;
+    } else {
+      return input;
+    };
+  });
+  return answer;
+};
+
 
 
 $(document).ready(function () {
