@@ -1,7 +1,3 @@
-const Beep = "Beep!"
-const Boop = "Boop!"
-const Wont = "Won't you be my neighbor?"
-
 let beepBoop = function (num) {
   let array = [];
   for (let index = 0; index <= num; index++) {
@@ -10,11 +6,11 @@ let beepBoop = function (num) {
 
   let answer = array.map(function (input) {
     if (input.includes("3")) {
-      return input = Wont;
+      return  "Won't you be my neighbor?";
     } else if (input.includes("2")) {
-      return input = Boop;
+      return "Boop";
     } else if (input.includes("1")) {
-      return input = Beep;
+      return "Beep";
     } else {
       return input;
     };
