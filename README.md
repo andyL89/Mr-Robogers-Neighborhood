@@ -39,22 +39,23 @@ Describe: else if (input.includes())
 Test: The last element in the array should return "Beep!" if the number inputted contains a "1" and doesn't contain "2" and/or "3". 
 Expect(beepBoop(11)) to return (0,...,Beep!);
 
-## *Setup instructions:*
+## *Setup Instructions:*
 
-1. Clone https://github.com/andyL89/Mr-Robogers-Neighborhood.
+1. Copy https://github.com/andyL89/Mr-Robogers-Neighborhood.
+2. Run git clone https://github.com/andyL89/Mr-Robogers-Neighborhood to add directory to your computer.
 2. Navigate to the top level of the directory.
 3. Open index.html in your browser.
 
-## *Tecnologies used:*
+## *Tecnologies Used:*
 * HTML
 * Java Script
 * JQuery
 * Bootstrap
 
-## *Known bugs:*
+## *Known Bugs:*
 The alert response covers up the submit button if a large enough number is inputted. Simply click the alert response to hide it.
 
-## *License and copyright:*
+## *License*
 
 [MIT](LICENSE.txt)
 
