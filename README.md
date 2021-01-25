@@ -3,7 +3,7 @@
 ***By Andrew Lawson © 2021***
 
 ## *Description:*
-This web page will take a number submitted by the user, and display either an array including "beep", "boop", and or "Won't You Be My Neighbor?". The JavaScript logic incorporates arrays, loops, and other methods.
+This webpage will take a number submitted by the user, and display an array leading up to the number inputted, with "beep", "boop", and "Won't You Be My Neighbor?" taking the place of numbers that consist of "1", "2", and "3". The JavaScript logic incorporates variables, for loops, if else statements, and array methods.
 
 ## *Tests*
 #### Test 1:
@@ -26,7 +26,6 @@ Expect(beepBoop(3) to return (0, Beep!, Boop!, Won't you be my neighbor?);
 Describe: beepBoop()
 Test: It should return an array of numbers leading up to 5 and strings with the words "Beep!", "Boop!" and "Won't you be my neighbor?" in place of 1, 2, and 3".
 Expect(beepBoop(5) to return (0,Beep!,Boop!,Won't you be my neighbor?,4,5);
-
 ## *Setup instructions:*
 
 1. Clone https://github.com/andyL89/Mr-Robogers-Neighborhood.
